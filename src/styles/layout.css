@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400&display=swap');
+
+.main {
+    margin-left: 16.666%;
+}
+
+body{
+    color: rgb(44, 44, 44);
+    font-family: 'Roboto', sans-serif;
+    font-weight:300;
+    font-size: 16px;
+}
+
+ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.navbar-pages {
+    height: 60px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    border-bottom-width: 0.5px;
+    border-top-width: 0.5px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-style: solid;
+    border-color: darkgray;
+}
+
+.navbar-brand {
+    color: #FAB000;
+    font-weight: bold;
+}
+
+.navbar-left {
+    height: 60px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    border-bottom-width: 0.5px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-style: solid;
+    border-color: darkgray;
+    justify-content: center;
+}
+
+.navbar-div {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    width: 100%;
+}
+
+.navbar-center {
+    width: 75%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.navbar-right {
+    width: 25%;
+    display: flex;
+    flex-flow: row;
+    border-style: solid;
+    border-width: 00px;
+    border-left-width: 0.5px;
+    border-color: darkgray;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-center {
+        width: 50%;
+    }
+    .navbar-right {
+        width: 50%;
+    }
+}
+
+.navbar-right img {
+    margin-right: 7%;
+    margin-left: 7%;
+}
+
+.navbar-right p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+/*----------------------------------------pages----------------------------------------*/
+
+
+.main-employees {
+    height: 100vh;
+    padding: 30px;
+    padding-top: 15px;
+}
+
+
+.my-border {
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: darkgray;
+}
+
+#back-img{
+    width: 100%;
+}
+
+.blur{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(199, 199, 199, 0.658);
+    margin: 0px;
+    padding: 0px;
+}

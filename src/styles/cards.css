@@ -1,0 +1,21 @@
+.card {
+    box-shadow: rgba(0, 0, 0, 0.192) 0px 5px 15px;
+    border-radius: 5px;
+    border-style: none;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.card-content {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.card-title {
+    font-size: 1.35em;
+    font-weight: bold;
+}
+.card-txts {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}

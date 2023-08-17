@@ -1,0 +1,76 @@
+.my-border{
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: darkgray;
+}
+.btn{
+    height: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 3px;
+    font-size: 1em;
+}
+.btn-narrow{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btn-ylo{
+    background-color: #FAB000;
+    border-color: #FAB000;
+    color : white;
+}
+.btn-ylo:hover{
+    background-color: #dd9b00;
+    color : white;
+}
+.btn-blu{
+    background-color: #218AD1;
+    color : white;
+}
+.btn-blu:hover{
+    background-color: #0f6ead;
+    color : white;
+}
+.btn-red{
+    background-color: #d12121;
+    color : white;
+}
+.btn-red:hover{
+    background-color: #ad0f0f;
+    color : white;
+}
+.rmv-btn{
+    border: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color : white;
+    background-color: #FAB000;
+    border-radius: 7px;
+}
+.edt-btn{
+    border: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color : white;
+    border-radius: 7px;
+}
+#close-button{
+    color: white;
+    background-color: #d12121;
+    border-radius: 7px;;
+    border-width: 0px;
+}
+.btn-empty {
+    border-width: 0.5px;
+    background-color: white;
+    color:#dd9b00
+}
+
+@media only screen and (max-width: 600px) {
+    .btn {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
